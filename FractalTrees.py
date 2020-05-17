@@ -5,7 +5,7 @@ pygame.init()
 
 # Sets up screen and some definitions
 WIDTH, HEIGHT = (500, 500)
-screen = pygame.display.set_mode((WIDTH, WIDTH))
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Trees")
 
 BLACK = pygame.Color(0, 0, 0)
